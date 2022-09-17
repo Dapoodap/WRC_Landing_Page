@@ -1,0 +1,482 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #303841;
+    position: absolute;
+}
+.navbar{
+    box-shadow: 0 6px 6px #888888;
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    background-color: #2E4750;
+}
+.navbar .logo{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.navbar .logo > img,.nama{
+    display: inline-block;
+    
+}
+.navbar .nama > p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+} 
+.navbar .logo,.nav,.donation{
+    display: inline-block;
+
+}
+
+.navbar .donation >h3{
+   margin-top: 15px;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+ align-items: center;
+   font-family: 'Baloo 2', cursive;
+   font-size: 35px;
+   color: #303841;
+}
+.navbar .nav{
+    
+    margin-left: 480px;
+    position: absolute;
+    top: 40px;
+}
+.navbar .nav ol li {
+    list-style: none;
+    display: inline;
+}
+.navbar .nav ol li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}
+.navbar .nav ol li a:hover{
+    font-weight: 500;
+    color: #f3ce51;
+    transition: 700ms;
+}
+
+.navbar .donation{
+    height: 90px;
+    width: 180px;
+    background-color: #f3ce51;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+}
+.navbar .donation:hover{
+    background-color: #ffdf75;
+    transition: 500ms;
+}
+.navbar .donation > h1{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: #254151;
+
+}
+
+.contact{
+    position: fixed;
+    width: 121px;
+    top: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: fit-content;
+    background-color: #f3ce51;
+    right: 0;
+    border-radius:5px;
+    justify-content: center;
+    z-index: 255;
+    
+}
+.contact > a{
+    display: block;
+    margin-left: 35px;
+    padding: 6px;
+    cursor: pointer;
+}
+.contact > a img:hover{
+    width: 50px;
+    height: 50px;
+
+}
+header{
+    margin-top: 90px;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    height: 70rem;
+    color: white;
+}
+video{
+    max-width: 100%;
+    object-fit: fill;
+    height: 70rem;
+}
+.judul{
+    position: absolute;
+    display: flexbox;
+    text-align: left;
+    top: 12rem;
+    left: 60px;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #f1f1f165;
+}
+.judul > h1{
+    font-size: 70px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 800;
+
+}
+.judul > h2{
+    font-size: 30px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 500;
+
+}
+
+.isian{
+    background-color: #303841;
+    height: 240px;
+
+    
+}.container{ 
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin: auto;
+    top: 700px;
+
+
+}
+.container .misi{
+    margin: auto;
+    text-align: center;
+    width: 1100px;
+
+    height: fit-content;
+}
+.container .misi .kesatu .misinya  > p{
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    line-height: 20px;
+    margin-bottom: 26px;
+    left: 200px;
+    top: 95px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #F7F7F7;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+.misi .kesatu .misinya .more{
+    
+    width: 400px;
+    line-height: 28px;
+    left: 200px;
+    top: 245px;
+    
+    font-size: 16px;
+    font-weight: 200;
+    color: #F7F7F7;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.misi .kesatu .misinya .more:hover{
+    text-decoration: underline;
+}
+.misi .kesatu .ajakan .support{
+    margin: auto;
+    margin-top: 120px;
+    width: 100px;
+    left: 900px;
+    padding: 10px;
+    background-color: #F1F1F1;
+    top:190px;
+    color: #abb999;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container .misi .kesatu .misinya  > h1{
+    margin-bottom: -100px;
+    margin-top: 20px;
+    font-family: 'Baloo 2', cursive;
+    letter-spacing: 6px;
+    left: 255px;
+    font-size: 40px;
+    top: 25px;
+    color: #F1F1F1;
+}
+.container .misi .kesatu .ajakan  > h1{
+    margin-top: 20px;
+    left: 800px;
+    top: 25px;
+    color: #F7F7F7;
+    font-family: 'Baloo 2', cursive;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+.container .misi .kesatu .misinya{
+    background-color: #5F6F94;
+}
+.container .misi .kesatu .ajakan{
+    background:linear-gradient(0deg, rgba(0, 231, 77, 0.3), rgba(255, 0, 150, 0.3)), url(image/name_-gravity-_AdUs32i0jc-unsplash.jpg);
+    background-size: cover;
+    margin-left: -4px;
+}
+.container .misi .kedua .berita{
+    background-color: #ECC5FB;
+}
+.container .misi .kedua .subrek{
+    background-color: #FAF4B7;
+    margin-left: -4px;
+}
+.container .misi .kesatu .misinya,.ajakan{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 548px;
+    height: 300px;
+}
+.container .misi .kedua .berita,.subrek{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 548px;
+    height: 300px;
+}
+.misi .kedua .berita> h1{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -100px;
+    left: 300px;
+    top: 325px;
+    color: #303841;
+    font-family: 'Baloo 2', cursive;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.misi .kedua .subrek> h1{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    left: 800px;
+    top: 325px;
+    color: #303841;
+    font-family: 'Baloo 2', cursive;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+.misi .kedua .subrek .mail{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 280px;
+    left: 820px;
+    height: 50px;
+    top: 420px;
+    color: #303841;
+    font-size: 30px;
+    background-color: #FAF4B7;
+    border: none;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+.misi .kedua .subrek .kirim{
+    margin: auto;
+    display: block;
+    margin-top: 80px;
+    margin-left: 229px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 20px;
+    left: 898px;
+    top: 510px;
+    background-color: #FAF4B7;
+    border: none;
+    color: #303841;
+    font-size: 20px;
+    cursor: pointer;
+}
+.misi .kedua .subrek .kirim:hover{
+    background-color: #f5ed93;
+    transition: 300ms;
+    
+}
+.container .misi .kedua .berita  > p{
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    left: 200px;
+    top: 395px;
+    color: #303841;
+    font-size: 16px;
+    font-weight: 300;
+    color: #303841;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+.container .misi .kedua .berita,.subrek{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+section{
+
+    color: #254151;
+    margin: auto;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+section h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #F7F7F7;
+    letter-spacing: 1px;
+    font-family: 'Baloo 2', cursive;
+}
+section h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F7F7F7;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+section p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #F7F7F7;
+    font-family: 'Inter', sans-serif;
+}
+
+.artikel{
+
+    display: inline-block;
+    height: fit-content;
+    margin-left: 50px;
+    width: 700px;
+    margin-right: 30px;
+    text-align: left;
+}
+.form{
+
+    vertical-align: top;
+    display: inline-block;
+    margin-left: -15px;
+    height: fit-content;
+    width: 400px;
+    
+
+
+}
+.tg  {border-spacing:2px;border: 2px double #F7F7F7 ;padding: 2px;margin-bottom: 20px;text-align: center;}
+.tg td{border-color:#F7F7F7;border-style:solid;border-width:1px;font-family: 'Inter', sans-serif;;font-size:16px;
+  overflow:hidden;padding:10px 5px;word-break:normal;color: #F7F7F7;font-weight: 200;}
+.tg th{border-color:#F7F7F7;border-style:solid;border-width:1px;font-family: 'Inter', sans-serif;font-size:16px;
+  font-weight:400;overflow:hidden;padding:10px 5px;word-break:normal;color: #F7F7F7;}
+.tg .tg-5qpk{background-color:#F7F7F7;border-color:#F7F7F7;color:#F7F7F7;font-size:20px;text-align:center;vertical-align:top}
+.form input{
+    height: 48px;
+    width: 320px;
+    font-size: 22px;
+    font-weight: 200;
+    padding-left: 15px;
+    background-color: #F1F1F1;
+}
+.cek{
+    margin: auto;
+    width: 336px;
+    margin-top: 20px;
+
+}
+.kotak > input{
+    width: 15px;
+    margin-top: 4px;
+    height: 15px;
+}
+.kotak{
+    width: fit-content;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.label{
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+.label >label{
+    font-size: 14px;
+    color: #F1F1F1;
+    font-weight: 200;
+    font-family: 'Inter'
+
+}
+.label > label > a{
+    color: #F1F1F1;
+
+}
+.form .btn{
+    margin-top: 20px;
+    margin-left: 7px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+    width: 320px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+}
+.form .btn:hover{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 0, 0.562);
+    border-radius: 10px;
+    transition: 600ms;
+}
+.form .btn:not(:hover){
+    margin-top: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    transition: 600ms;
+}
+footer{
+    background-color: #21209C;
+    height: 3rem;
+    padding: 5px;
+    padding-top: 20px;
+}
+footer h2{
+    width: fit-content;
+    font-weight: 200;
+    font-family: 'Baloo 2', cursive;
+}
+
